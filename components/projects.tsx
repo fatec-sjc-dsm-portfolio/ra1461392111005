@@ -31,7 +31,7 @@ const projects: Project[] = [
     title: "FRAGMOS",
     description: {
       en: "Currently in development! A roguelike focused on achieving high scores with a retro-inspired visual style.",
-      pt: "Sendo desenvolvido atualmente! Um roguelike com foco em atingir a maior pontuação alta com um visual focado em relembrar jogos antigos",
+      pt: "Sendo desenvolvido atualmente! Um roguelike com foco em atingir a maior pontuação possível e escapar de sua prisão, com estilo visual retrô.",
     },
     media: {
       src: `${basePath}/fragmos_gif_preview.gif`,
@@ -70,6 +70,19 @@ const projects: Project[] = [
   },
   {
     id: 4,
+    title: "Ultimate Jello Party",
+    description: {
+      en: "I participated as a developer in this game project, working on some of the minigames and the main board. It was a gamedev project made with Godot, JavaScript, and GDScript.",
+      pt: "Participei como desenvolvedor nesse projeto de jogo, trabalhando em alguns dos minigames e no tabuleiro principal. Foi um trabalho de gamedev feito com Godot, JavaScript e GDScript.",
+    },
+    media: {
+      src: `${basePath}/ultimatejelloparty.png`,
+      type: "image",
+    },
+    tags: ["Godot", "GDScript", "JavaScript", "GameDev"],
+  },
+  {
+    id: 5,
     title: "Meteorological data API",
     description: {
       en: "Back-end for a meteorological data collection system, developed alongside simple data-collection stations.",
@@ -82,19 +95,6 @@ const projects: Project[] = [
     tags: ["JavaScript", "Typescript", "Mysql", "API", "Web"],
     demoLink: "https://theachievers-front-end.vercel.app",
     githubLink: "https://github.com/TheAchieversDSM/API-2023.1-Back-End-System",
-  },
-  {
-    id: 5,
-    title: "Ultimate Jello Party",
-    description: {
-      en: "I participated as a developer in this game project, working on some of the minigames and the main board. It was a gamedev project made with Godot, JavaScript, and GDScript.",
-      pt: "Participei como desenvolvedor nesse projeto de jogo, trabalhando em alguns dos minigames e no tabuleiro principal. Foi um trabalho de gamedev feito com Godot, JavaScript e GDScript.",
-    },
-    media: {
-      src: `${basePath}/ultimatejelloparty.png`,
-      type: "image",
-    },
-    tags: ["Godot", "GDScript", "JavaScript", "GameDev"],
   },
   {
     id: 6,
@@ -121,7 +121,38 @@ const projects: Project[] = [
       type: "image",
     },
     tags: ["Java", "React", "Web"],
+  },
+  {
+    id: 8,
+    title: "DomRock AI Business Insights System",
+    description: {
+      en: "A full-stack system designed for DomRock to process business data and transform it into accessible insights. The platform ingests CSV files, processes and stores them in SQL databases, and enables natural language queries using LLMs (GPT/Gemini). It also automatically generates executive summaries with insights about sales and inventory. The solution supports both web and mobile access with deployment on AWS.",
+      pt: "Sistema full-stack desenvolvido para a DomRock, focado em transformar grandes volumes de dados em insights acessíveis. A plataforma ingere arquivos CSV, realiza tratamento e armazena tudo em SQL, permitindo que usuários façam consultas em linguagem natural via LLMs (GPT/Gemini). O sistema também gera boletins executivos automáticos com insights de vendas e estoque. Disponível em web e mobile, com deploy em AWS.",
+    },
+    media: {
+      src: "/domrock_preview.jpg",
+      type: "image"
+    },
+    tags: ["Front-end", "Back-end", "SQL", "ETL", "LLM", "AWS", "AI", "API"],
+    demoLink: "https://github.com/BananaScripts/API_6-Semestre",
+    githubLink: "https://github.com/BananaScripts/API_6-Semestre"
+  },
+  {
+    id: 9,
+    title: "Corporate AI Agents Platform",
+    description: {
+      en: "A mobile and back-end solution for creating and managing customized AI agents used to support internal users and clients. Administrators can configure multiple virtual agents trained with internal documentation, workflows, and system rules. The platform includes a permission system that ensures each user can only access their authorized agents. A mobile app enables real-time interaction through an intelligent chat, with all conversations stored securely in a cloud database.",
+      pt: "Aplicação mobile e back-end para criação e gerenciamento de agentes de IA corporativos voltados ao suporte interno. Administradores podem configurar múltiplos agentes virtuais treinados com documentações internas, regras de negócio e fluxos operacionais. O sistema conta com um controle de permissões para limitar o acesso de cada usuário aos agentes autorizados. O aplicativo móvel permite interação via chat inteligente, com todas as conversas salvas em nuvem de forma segura.",
+    },
+    media: {
+      src: "/aiagents_preview.png",
+      type: "image"
+    },
+    tags: ["Front-end", "Back-end", "Mobile", "AI Agents", "LLM", "Cloud", "Permissions System"],
+    demoLink: "",
+    githubLink: ""
   }
+
 ];
 export default function Projects() {
   const { t, language } = useLanguage()
