@@ -130,7 +130,7 @@ const projects: Project[] = [
       pt: "Sistema full-stack desenvolvido para a DomRock, focado em transformar grandes volumes de dados em insights acessíveis. A plataforma ingere arquivos CSV, realiza tratamento e armazena tudo em SQL, permitindo que usuários façam consultas em linguagem natural via LLMs (GPT/Gemini). O sistema também gera boletins executivos automáticos com insights de vendas e estoque. Disponível em web e mobile, com deploy em AWS.",
     },
     media: {
-      src: "/domrock_preview.jpg",
+      src: `${basePath}/domrock_preview.png`,
       type: "image"
     },
     tags: ["Front-end", "Back-end", "SQL", "ETL", "LLM", "AWS", "AI", "API"],
@@ -145,7 +145,7 @@ const projects: Project[] = [
       pt: "Aplicação mobile e back-end para criação e gerenciamento de agentes de IA corporativos voltados ao suporte interno. Administradores podem configurar múltiplos agentes virtuais treinados com documentações internas, regras de negócio e fluxos operacionais. O sistema conta com um controle de permissões para limitar o acesso de cada usuário aos agentes autorizados. O aplicativo móvel permite interação via chat inteligente, com todas as conversas salvas em nuvem de forma segura.",
     },
     media: {
-      src: "/aiagents_preview.png",
+      src: `${basePath}/aiagents_preview.png`,
       type: "image"
     },
     tags: ["Front-end", "Back-end", "Mobile", "AI Agents", "LLM", "Cloud", "Permissions System"],
