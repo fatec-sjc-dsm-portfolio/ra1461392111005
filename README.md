@@ -2,8 +2,7 @@
 
 Um portfólio moderno e interativo para desenvolvedores de jogos, com foco em programação e desenvolvimento. Este projeto apresenta um design temático de desenvolvimento de jogos com elementos 3D interativos.
 
-![Preview do Portfólio](./public/preview.png)
-
+[Preview do portfolio](https://fatec-sjc-dsm-portfolio.github.io/ra1461392111005/)
 
 ## 🎮 Características
 
@@ -30,84 +29,44 @@ Um portfólio moderno e interativo para desenvolvedores de jogos, com foco em pr
 ## 🛠️ Instalação
 
 1. Clone o repositório
-   \`\`\`bash
-   git clone https://github.com/seu-usuario/game-dev-portfolio.git
-   \`\`\`
+   ```bash
+   git clone https://github.com/fatec-sjc-dsm-portfolio/ra1461392111005.git
+   ```
 
 2. Navegue até o diretório do projeto
-   \`\`\`bash
-   cd game-dev-portfolio
-   \`\`\`
+   ```bash
+   cd ra1461392111005
+   ```
 
 3. Instale as dependências
-   \`\`\`bash
+   ```bash
    npm install
    # ou
    pnpm install
    # ou
    yarn install
-   \`\`\`
+   ```
 
 4. Inicie o servidor de desenvolvimento
-   \`\`\`bash
+   ```bash
    npm run dev
    # ou
    pnpm dev
    # ou
    yarn dev
-   \`\`\`
+   ```
 
 5. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
-
-## 🎨 Personalização
-
-### Projetos
-
-Edite o arquivo `components/projects.tsx` para adicionar seus próprios projetos:
-
-\`\`\`typescript
-const projects: Project[] = [
-  {
-    id: 1,
-    title: "Seu Projeto",
-    description: "Descrição do seu projeto",
-    image: "/caminho/para/imagem.jpg",
-    tags: ["Unity", "C#", "3D"],
-    demoLink: "https://link-para-demo.com",
-    githubLink: "https://github.com/seu-usuario/seu-projeto",
-  },
-  // Adicione mais projetos aqui
-];
-\`\`\`
-
-### Habilidades
-
-Edite o arquivo `components/skills.tsx` para personalizar suas habilidades:
-
-\`\`\`typescript
-const skills: Skill[] = [
-  { name: "C#", level: 90, category: "languages" },
-  { name: "Unity", level: 95, category: "engines" },
-  // Adicione mais habilidades aqui
-];
-\`\`\`
-
-### Informações de Contato
-
-Edite o arquivo `components/contact.tsx` para atualizar suas informações de contato.
 
 ## 📝 Licença
 
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 🙏 Agradecimentos
+---
 
-- [Three.js](https://threejs.org/) pela biblioteca 3D
-- [React Three Fiber](https://github.com/pmndrs/react-three-fiber) pela integração com React
-- [Vercel](https://vercel.com/) pela hospedagem
-\`\`\`
+**Desenvolvido como parte do portfólio acadêmico - DSM Fatec SJC**
 
-```gitignore file=".gitignore" type="code"
+```gitignore
 # dependencies
 /node_modules
 /.pnp
@@ -147,3 +106,4 @@ next-env.d.ts
 # IDE
 .idea
 .vscode
+```
